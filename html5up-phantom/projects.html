@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>Project Showcase - Ricky Huynh Teaching Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+                        <div class="title-bar">
+                            <h1 class="page-title">Project Showcase</h1>
+                        </div>	
+
+                        <div class="inner">
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+                        <h2>Menu</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="contact.html">Contact Me</a></li>
+                            <li><a href="projects.html">Project Showcase</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="philosophy.html">Teaching Philosophy</a></li>
+                        </ul>
+                    </nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<p>A visual account of projects created across the duration of my degree and other experiences.</p>
+                                
+                            <h3>Timber</h3>
+                                <button onclick="toggleDropdown('dropdown-timber-text', 'dropdown-timber-img')">Open Dropdown</button>
+                                    <p id="dropdown-timber-text" style="display:none;">Timber projects have been thoroughly enjoyable across the entire process. Some projects that I have developed and created are a Bauhaus-inspired Ottoman, Heirloom Box, and Chopping Board. A particular favourite passion project was the development and construction of my backyard bar, in collaboration with fellow peers in the same course. Utilised our collaboration and skills developed throughout this course, delivered a prized home staple.</p>
+                                <div id="dropdown-timber-img" style="display:none;">
+                                    <img src="images/timber.png" alt="Timber projects made by Ricky" width="1000">
+                                </div>
+
+                                <p></p>
+                                <h3>Food Technology</h3>
+                                <button onclick="toggleDropdown('dropdown-food-text','dropdown-food-img')">Open Dropdown</button>
+                                <p id="dropdown-food-text" style="display: none;">Food Technology is my area of specialisation, and has allowed a different form of creativity to emerge, where it combines the love I have for food to solving real-life issues. Below are images of a dish I developed that was State Winner of the Flavour Forecast Challenge, a Dukkat-Crusted Lamb Skewer with Potato Flatbread, Potato Salad, and Yoghurt Sauce. And also is an image of my Food major work, the Homechefs Handbook, a guide for young adults for how to best cook at home. The package includes the guide, four recipes, and a start kit (spatual, measuring cups, tongs).</p>
+                                <div id="dropdown-food-img" style="display:none;">
+                                    <img src="images/food.png" alt="Ottoman made by Ricky" width="1000">
+                                </div>
+
+                                <p></p>
+                                <h3>Hospitality</h3>
+                                <button onclick="toggleDropdown('dropdown-hospo-text','dropdown-hospo-img')">Open Dropdown</button>
+                                <p id="dropdown-hospo-text" style="display: none;">Food Technology is my area of specialisation, and has allowed a different form of creativity to emerge, where it combines the love I have for food to solving real-life issues. Below are images of a dish I developed that was State Winner of the Flavour Forecast Challenge, a Dukkat-Crusted Lamb Skewer with Potato Flatbread, Potato Salad, and Yoghurt Sauce. And also is an image of my Food major work, the Homechefs Handbook, a guide for young adults for how to best cook at home. The package includes the guide, four recipes, and a start kit (spatual, measuring cups, tongs).</p>
+                                <div id="dropdown-hospo-img" style="display:none;">
+                                    <img src="images/hospo.png" alt="Different dishes prepared by Ricky while on Hospitality Training" width="1000">
+                                </div>                               
+
+                                <script>
+                                    function toggleDropdown(textId, imgId) {
+                                        const textEl = document.getElementById(textId);
+                                        const imgEl  = document.getElementById(imgId);
+                                        // if text is hidden, show both; otherwise hide both
+                                        const shouldShow = textEl.style.display === 'none';
+                                        textEl.style.display = shouldShow ? 'block' : 'none';
+                                        imgEl.style.display  = shouldShow ? 'block' : 'none';
+                                    }
+                                </script>
+                            
+                        </div>
+                    </div>
+    </body>
+							
+				
+
+			<!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    <section>
+                        <h2>Ricky Huynh's Teaching Portfolio</h2>         
+                    </section>
+                    <section>
+                        <h2>Follow</h2>
+                        <ul class="icons">
+                            <li><a href="https://au.linkedin.com/in/ricky-huynh-4459071b3?trk=people-guest_people_search-card" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        
+                        </ul>
+                    </section>
+                    <ul class="copyright">
+                        <li>&copy; 2025 Ricky Huynh. All rights reserved</li>
+                    </ul>
+                </div>
+            </footer>
+
+
+    <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
